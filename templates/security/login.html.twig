@@ -25,7 +25,8 @@
 
                 <input type="hidden" name="_csrf_token"value="{{ csrf_token('authenticate') }}">
 
-                <button class="btn btn-lg btn-primary mt-3" type="submit">Connexion</button>
+                <button class="btn btn-primary mt-3" type="submit">Connexion</button>
+                <a href="{{ path('app_register') }}" class="btn btn-secondary mt-3">M'inscrire</a>
             </form>
         </div>
     </div>
